@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japão</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./styles/japao.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-país container__imagem"></span>
+      </label>
+      <a href="index.html"><img src="./img/Japao.jpg" alt="Logo do país" class="container__imagem__pais"></a>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu" class="opções__rotulo">
+          <li class="opções__item">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">ㅤTokyoㅤ</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">ㅤOsakaㅤ</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">ㅤKyotoㅤ</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">ㅤHiroshimaㅤ</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">ㅤKobeㅤ</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">ㅤNagasakiㅤ</a>
+          </li>
+
+
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+
+      </ul>
+
+    </div>
+    <div class="container">
+      <a href="#"><img src="./Página--1/img/Favoritos.svg" alt="Meus favoritos"
+          class="container__imagem container__imagem-transparente"></a>
+
+      <a href="#" class="container__link">
+        <img src="./Página--1/img/Usuario.svg   " alt="Meu perfil" class="container__perfil">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+
+
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Japão</h2>
+    <p class="banner__texto"></p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será a sua próxima viagem?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Cidades</h2>
+
+    <div class="carrossel__container">
+      <!-- Slider main container -->
+      <div class="swiper">
+
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+
+
+          <div class="swiper-slide">
+            <a href="#" class="imagem__hover">
+              <img src="./img/tokyo.jpg" alt="Tokyo">
+            </a>
+
+
+          </div>
+
+
+          <div class="swiper-slide">
+            <a href="#" class="imagem__hover">
+              <img src="./img/Osaka.jpg" alt="Osaka">
+            </a>
+
+
+          </div>
+
+
+          <div class="swiper-slide">
+            <a href="#" class="imagem__hover">
+              <img src="./img/Quioto.jpg" alt="kyoto">
+            </a>
+
+
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#" class="imagem__hover">
+              <img src="./img/Hiroshima.jpg" alt="Hiroshima">
+            </a>
+
+
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#" class="imagem__hover">
+              <img src="./img/Kobe.jpg" alt="Kobe">
+            </a>
+
+
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#" class="imagem__hover">
+              <img src="./img/Nagasaki.jpg" alt="Nagasaki">
+            </a>
+
+
+          </div>
+
+          <div class="swiper-slide">
+          </div>
+
+        </div>
+
+        <div class="card">
+          <div class="card__descrição">
+            <div class="descrição">
+              <h3 class="descrição__titulo">Vídeo demonstrativo sobre a viagem</h3>
+              <h2 class="descrição__titulo-substituto">Capital do Japão</h2>
+              <h2 class="descrição__titulo-substituto__1">Tokyo</h2>
+            </div>
+
+            <img src="./img/TurismoJapão.jpg" class="descrição__imagem__1" />
+          </div>
+          <div class="card__botões">
+            <ul class="botões">
+              <li class="botões__item">
+
+
+                <img class="favorito" src="./Página--1/img/Favoritos.svg" alt="adfadf" id="favorito">
+
+              </li>
+
+            </ul>
+            <a href="https://www.youtube.com/watch?v=g4bDe-OV4xA" class="botões__ancora">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Pontos Turísticos</h2>
+
+    <div class="carrossel__container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/tokyo.jpg" alt="Fortaleza de akershus">
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/Shibuya.jpg" alt="Parque vigeland">
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/ParqueUeno.jpg" alt="Museu Norueguês da História central">
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/Fushimi.jpg" alt="Mercado do peixe">
+            </a>
+          </div>
+
+      
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/MemorialDaPaz.jpg" alt="Vilvite">
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#"><img src="./img/Tokyoanimecenter.jpg" alt="Jardim Botãnico">
+            </a>
+          </div>
+
+          <div class="swiper-slide"> </div>
+
+        </div>
+
+
+
+
+
+        <div class="card">
+          <!-- 1º linha -->
+          <div class="card__descrição">
+            <!-- 1º coluna -->
+            <div class="descrição">
+              <img class="estrelinha" src="./Página--1/img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+              <h3 class="descrição__titulo2">Imperial Hotel</h3>
+              <h2 class="descrição__titulo-substituto2">Tokyo</h2>
+              <p class="descrição__titulo-substituto__2"> R$2844,00 / 71293,39JPY</p>
+            </div>
+            <!-- 2º coluna -->
+            <img src="./img/HotelJapão.jpg" class="descrição__imagem">
+          </div>
+
+          <!-- 2º linha -->
+          <div class="card__botões">
+            <!-- 1º coluna -->
+            <ul class="botões">
+              <li class="botões__item">
+
+
+                <img class="favorito1" src="./Página--1/img/Favoritos1.svg" alt="adfadf" id="favorito1">
+
+              </li>
+
+            </ul>
+            <!-- 2º coluna -->
+            <a href="#" class="botões__ancora">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+  <h2 class="carrossel__titulo">ㅤ</h2>
+
+  <div class="card__flashcard">
+    <!-- 1º linha -->
+    <div class="card__descrição">
+      <!-- 1º coluna -->
+      <div class="descrição">
+        
+        <h3 class="descrição__titulo2">Esperimente nosso Flashcard</h3>
+        <h2 class="descrição__titulo-substituto2">O flashcard irá te mostrar algumas curiosiades sobre o Japão</h2>
+      
+      </div>
+      <!-- 2º coluna -->
+      <img src="./img/Paisagem.japao.jpg" class="descrição__imagem">
+    </div>
+
+    <!-- 2º linha -->
+    <div class="card__botões">
+      <!-- 1º coluna -->
+      <ul class="botões">
+        <li class="botões__item">
+
+        </li>
+
+      </ul>
+      <!-- 2º coluna -->
+      <a href="flashcardjapao.html" class="botões__ancora">Saiba mais</a>
+    </div>
+  </div>
+</div>
+
+
+
+  <section class="contato">
+    <div class="contato__descrição">
+      <p>Contato:</p>
+    </div>
+    <h1 placeholder="" class="contato__email">ㅤㅤㅤㅤㅤㅤ+55 11 99497-5705ㅤㅤㅤ</h1>
+  </section>
+
+
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Guia-de-viagem</h2>
+
+
+
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+
+  <script src="./scripts/script.js"></script>
+  <script src="./scripts/comandossecundarios.js"></script>
+</body>
+
+</html>

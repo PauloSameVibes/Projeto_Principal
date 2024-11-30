@@ -1,0 +1,38 @@
+:root {
+    --vermelho: rgb(139, 0, 0);
+    --branco: rgb(255, 250, 250);
+    --azul: rgb(65, 105, 225);
+    --amarelo: rgb(255, 215, 0);
+    --verde: rgb(34, 139, 34);
+    --cinza_escuro: rgb(28, 28, 28);
+    --cinza: rgb(105, 105, 105);
+
+    /*Noruega*/
+    --N1: #222831;
+    --N2: #31363F;
+    --N3: #76ABAE;
+    --N4: #EEEEEE;
+    /*Noruega*/
+
+    /*Japão*/
+    --J1: #343131;
+    --J2: #A04747;
+    --J3: #D8A25E;
+    --J4: #EEDF7A;
+    /*Japão*/
+
+    /*França*/
+    --F1: #DEAA79;
+    --F2: #FFE6A9;
+    --F3: #B1C29E;
+    --F4: #659287;
+    /*França*/  
+
+    /*EUA*/
+    --E1: #607274;
+    --E2: #FAEED1;
+    --E3: #DED0B6;
+    --E4: #B2A59B;
+    /*EUA*/
+
+}

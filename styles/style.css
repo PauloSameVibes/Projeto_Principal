@@ -1,0 +1,65 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --botão-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+* {
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    background-image: url("../img/mapa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.primeiro_ativo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.primeiro_ativo__container__principal__titulo {
+    font-size: 2rem;
+}
+
+.primeiro_ativo__container__principal__subtitulo {
+    font-size: 18px;
+    margin: 1rem;
+}
+
+.primeiro_ativo__container__paises__lista {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.primeiro_ativo__container__paises img {
+    object-fit: cover;
+}
+
+.primeiro_ativo__container__paises__imagem {
+    width: 20vw;
+    height: 20vh;
+}
+
+.primeiro_ativo__container__paises__imagem-hover {
+    width: 20vw;
+    height: 20vh;
+    transition: transform 0.3s ease-in-out;
+}
+
+.primeiro_ativo__container__paises__imagem-hover:hover {
+    transform: scale(1.1);
+}
